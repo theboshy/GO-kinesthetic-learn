@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd7c9ed-11b6-4653-98b3-a9a29b9f68c4" name="Default" comment="micro service with  n tier architecture (still without dao)">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/TOTALNEED.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lexco/mcsgo/interfaces/InterfaceTest.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lexco/mcsgo/main/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lexco/mcsgo/serviceDitpatcher/ServiceMapping.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/PrincipalRouters.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/SecondaryRouters.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lexco/mcsgo/threading/threa.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lexco/mcsgo/threading/threadtest2.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lexco/mcsgo/threading/threadtest3.go" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change afterPath="$PROJECT_DIR$/src/lexco/archt/patterns/factory-method/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lexco/archt/patterns/semaphore/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,33 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/main/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-236">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threa.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/threading/threa.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-              <folding>
-                <element signature="e#15#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="threadtest3.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/threading/threadtest3.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="663">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding>
                 <element signature="e#15#65#0" expanded="true" />
               </folding>
@@ -62,14 +27,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InterfaceTest.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InterfaceTest.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/interfaces/InterfaceTest.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="74" lean-forward="false" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+              <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lexco/archt/patterns/semaphore/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
-                <element signature="e#14#26#0" expanded="true" />
+                <element signature="e#19#83#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lexco/archt/patterns/factory-method/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-839">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+              <folding>
+                <element signature="e#14#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="semaphore.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src/github.com/eapache/go-resiliency/semaphore/semaphore.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -77,9 +72,8 @@
       <file leaf-file-name="type.go" pinned="false" current-in-tab="false">
         <entry file="file://C:/Go/src/go/types/type.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="121" column="20" lean-forward="false" selection-start-line="120" selection-start-column="4" selection-end-line="121" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="2057">
+              <caret line="121" column="20" selection-start-line="120" selection-start-column="4" selection-end-line="121" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -87,21 +81,11 @@
       <file leaf-file-name="threadtest2.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/threading/threadtest2.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="153">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
                 <element signature="e#15#50#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="waitgroup.go" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/sync/waitgroup.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -110,8 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/PrincipalRouters.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding />
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -120,8 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceDitpatcher/ServiceMapping.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding />
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -130,8 +112,7 @@
         <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/SecondaryRouters.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -179,6 +160,9 @@
         <option value="$PROJECT_DIR$/src/lexco/mcsgo/threading/threadtest3.go" />
         <option value="$PROJECT_DIR$/src/lexco/mcsgo/interfaces/Interface.go" />
         <option value="$PROJECT_DIR$/src/lexco/mcsgo/interfaces/InterfaceTest.go" />
+        <option value="$PROJECT_DIR$/src/lexco/archt/patterns/semaphore/semaphorePattern.go" />
+        <option value="$PROJECT_DIR$/src/lexco/archt/patterns/semaphore/main.go" />
+        <option value="$PROJECT_DIR$/src/lexco/archt/patterns/factory-method/main.go" />
       </list>
     </option>
   </component>
@@ -191,111 +175,94 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="701" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TOTALNEED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TOTALNEED" type="462c0819:PsiDirectoryNode" />
+              <item name="GO-kinesthetic-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO-kinesthetic-learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TOTALNEED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TOTALNEED" type="462c0819:PsiDirectoryNode" />
+              <item name="GO-kinesthetic-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO-kinesthetic-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TOTALNEED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TOTALNEED" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lexco" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TOTALNEED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TOTALNEED" type="462c0819:PsiDirectoryNode" />
+              <item name="GO-kinesthetic-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO-kinesthetic-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lexco" type="462c0819:PsiDirectoryNode" />
-              <item name="mcsgo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TOTALNEED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TOTALNEED" type="462c0819:PsiDirectoryNode" />
+              <item name="GO-kinesthetic-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO-kinesthetic-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lexco" type="462c0819:PsiDirectoryNode" />
-              <item name="mcsgo" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="archt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TOTALNEED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TOTALNEED" type="462c0819:PsiDirectoryNode" />
+              <item name="GO-kinesthetic-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO-kinesthetic-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lexco" type="462c0819:PsiDirectoryNode" />
-              <item name="mcsgo" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="archt" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TOTALNEED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TOTALNEED" type="462c0819:PsiDirectoryNode" />
+              <item name="GO-kinesthetic-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO-kinesthetic-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lexco" type="462c0819:PsiDirectoryNode" />
-              <item name="mcsgo" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceDitpatcher" type="462c0819:PsiDirectoryNode" />
+              <item name="archt" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="factory-method" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TOTALNEED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TOTALNEED" type="462c0819:PsiDirectoryNode" />
+              <item name="GO-kinesthetic-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO-kinesthetic-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lexco" type="462c0819:PsiDirectoryNode" />
-              <item name="mcsgo" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceRouters" type="462c0819:PsiDirectoryNode" />
+              <item name="archt" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="semaphore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TOTALNEED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TOTALNEED" type="462c0819:PsiDirectoryNode" />
+              <item name="GO-kinesthetic-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO-kinesthetic-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lexco" type="462c0819:PsiDirectoryNode" />
               <item name="mcsgo" type="462c0819:PsiDirectoryNode" />
-              <item name="threading" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mcsImpl" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -309,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build InterfaceTest.go">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build InterfaceTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="TOTALNEED" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -318,12 +285,20 @@
       <filePath value="$PROJECT_DIR$/src/lexco/mcsgo/interfaces/InterfaceTest.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="TOTALNEED" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/lexco/mcsgo/main/main.go" />
+      <filePath value="$PROJECT_DIR$/src/lexco/archt/patterns/semaphore/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TOTALNEED" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/lexco/archt/patterns/factory-method/main.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build threa.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -334,14 +309,6 @@
       <filePath value="$PROJECT_DIR$/src/lexco/mcsgo/threading/threa.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build threadtest2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="TOTALNEED" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/lexco/mcsgo/threading/threadtest2.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
     <configuration name="go build threadtest3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="TOTALNEED" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -350,19 +317,20 @@
       <filePath value="$PROJECT_DIR$/src/lexco/mcsgo/threading/threadtest3.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build threa.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build threadtest2.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build threadtest3.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build InterfaceTest.go" />
+    <list>
+      <item itemvalue="Go Build.go build threa.go" />
+      <item itemvalue="Go Build.go build threadtest3.go" />
+      <item itemvalue="Go Build.go build InterfaceTest.go" />
+      <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build InterfaceTest.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build threadtest3.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build threa.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build threadtest2.go" />
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build InterfaceTest.go" />
+        <item itemvalue="Go Build.go build threadtest3.go" />
+        <item itemvalue="Go Build.go build threa.go" />
       </list>
     </recent_temporary>
   </component>
@@ -370,9 +338,6 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -388,35 +353,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2928994" sideWeight="0.25841874" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2928994" sideWeight="0.74158126" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25945538" side_tool="true" visible="true" weight="0.29248366" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7405446" visible="true" weight="0.29248366" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32988167" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32988167" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,286 +400,210 @@
     <breakpoint-manager>
       <option name="time" value="3" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/SecondaryRouters.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/context/context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6494">
-          <caret line="388" column="28" lean-forward="false" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10047">
-          <caret line="591" column="29" lean-forward="false" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/main/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/PrincipalRouters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/gin.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/gin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2499">
-          <caret line="147" column="13" lean-forward="false" selection-start-line="147" selection-start-column="13" selection-end-line="150" selection-end-column="17" />
-          <folding />
+          <caret line="147" column="13" selection-start-line="147" selection-start-column="13" selection-end-line="150" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/context.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6035">
-          <caret line="355" column="18" lean-forward="false" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
-          <folding />
+          <caret line="355" column="18" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceDitpatcher/ServiceMapping.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/SecondaryRouters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/context/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6596">
-          <caret line="388" column="28" lean-forward="false" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
-          <folding />
+          <caret line="388" column="28" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10047">
-          <caret line="591" column="29" lean-forward="false" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
-          <folding />
+          <caret line="591" column="29" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/main/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/gin.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/gin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2499">
-          <caret line="147" column="13" lean-forward="false" selection-start-line="147" selection-start-column="13" selection-end-line="150" selection-end-column="17" />
-          <folding />
+          <caret line="147" column="13" selection-start-line="147" selection-start-column="13" selection-end-line="150" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/PrincipalRouters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/context.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6035">
-          <caret line="355" column="18" lean-forward="false" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
-          <folding />
+          <caret line="355" column="18" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceDitpatcher/ServiceMapping.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/SecondaryRouters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/context/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6596">
-          <caret line="388" column="28" lean-forward="false" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
-          <folding />
+          <caret line="388" column="28" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10047">
-          <caret line="591" column="29" lean-forward="false" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
-          <folding />
+          <caret line="591" column="29" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/main/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/gin.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/gin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2499">
-          <caret line="147" column="13" lean-forward="false" selection-start-line="147" selection-start-column="13" selection-end-line="150" selection-end-column="17" />
-          <folding />
+          <caret line="147" column="13" selection-start-line="147" selection-start-column="13" selection-end-line="150" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/PrincipalRouters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/context.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6035">
-          <caret line="355" column="18" lean-forward="false" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
-          <folding />
+          <caret line="355" column="18" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceDitpatcher/ServiceMapping.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/SecondaryRouters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/context/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6596">
-          <caret line="388" column="28" lean-forward="false" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
-          <folding />
+          <caret line="388" column="28" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10047">
-          <caret line="591" column="29" lean-forward="false" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
-          <folding />
+          <caret line="591" column="29" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/main/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/gin.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/gin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2363">
-          <caret line="147" column="13" lean-forward="false" selection-start-line="147" selection-start-column="13" selection-end-line="150" selection-end-column="17" />
-          <folding />
+          <caret line="147" column="13" selection-start-line="147" selection-start-column="13" selection-end-line="150" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/PrincipalRouters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/context.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6035">
-          <caret line="355" column="18" lean-forward="false" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
-          <folding />
+          <caret line="355" column="18" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceDitpatcher/ServiceMapping.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/SecondaryRouters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/context/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6494">
-          <caret line="388" column="28" lean-forward="false" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
-          <folding />
+          <caret line="388" column="28" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10047">
-          <caret line="591" column="29" lean-forward="false" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
-          <folding />
+          <caret line="591" column="29" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -720,54 +611,49 @@
     <entry file="file://C:/Go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9979">
-          <caret line="591" column="29" lean-forward="false" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
-          <folding />
+          <caret line="591" column="29" selection-start-line="591" selection-start-column="29" selection-end-line="591" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/routergroup.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/routergroup.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
-          <caret line="180" column="29" lean-forward="false" selection-start-line="180" selection-start-column="29" selection-end-line="180" selection-end-column="29" />
+          <caret line="180" column="29" selection-start-line="180" selection-start-column="29" selection-end-line="180" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/context/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6494">
-          <caret line="388" column="28" lean-forward="false" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
-          <folding />
+          <caret line="388" column="28" selection-start-line="388" selection-start-column="28" selection-end-line="388" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/gin.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/gin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2363">
-          <caret line="147" column="13" lean-forward="false" selection-start-line="147" selection-start-column="13" selection-end-line="150" selection-end-column="17" />
-          <folding />
+          <caret line="147" column="13" selection-start-line="147" selection-start-column="13" selection-end-line="150" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/context.go">
+    <entry file="file://$PROJECT_DIR$/../src/github.com/gin-gonic/gin/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5763">
-          <caret line="355" column="18" lean-forward="false" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
-          <folding />
+          <caret line="355" column="18" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/sync/waitgroup.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/threading/threa.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="e#15#52#0" expanded="true" />
           </folding>
@@ -776,40 +662,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceDitpatcher/ServiceMapping.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/PrincipalRouters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/serviceRouters/SecondaryRouters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/threading/threadtest2.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="e#15#50#0" expanded="true" />
           </folding>
@@ -818,16 +700,15 @@
     </entry>
     <entry file="file://C:/Go/src/go/types/type.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="121" column="20" lean-forward="false" selection-start-line="120" selection-start-column="4" selection-end-line="121" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="2057">
+          <caret line="121" column="20" selection-start-line="120" selection-start-column="4" selection-end-line="121" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/threading/threadtest3.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="663">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding>
             <element signature="e#15#65#0" expanded="true" />
           </folding>
@@ -837,9 +718,43 @@
     <entry file="file://$PROJECT_DIR$/src/lexco/mcsgo/interfaces/InterfaceTest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="74" lean-forward="false" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/github.com/eapache/go-resiliency/semaphore/semaphore.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lexco/archt/patterns/semaphore/semaphorePattern.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="7" selection-end-line="47" selection-end-column="1" />
           <folding>
-            <element signature="e#14#26#0" expanded="true" />
+            <element signature="e#19#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lexco/archt/patterns/semaphore/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#19#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lexco/archt/patterns/factory-method/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-839">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="e#14#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
